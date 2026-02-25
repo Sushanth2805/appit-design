@@ -10,15 +10,15 @@ export const Features: React.FC = () => {
            <Reveal>
             <div className="inline-flex items-center gap-2 mb-6">
                 <Zap size={16} className="text-yellow-400 fill-current" />
-                <span className="text-sm font-bold text-yellow-400 uppercase tracking-widest">Powerful Features</span>
+                <span className="text-sm font-bold text-yellow-400 uppercase tracking-widest">Platform Features</span>
             </div>
            </Reveal>
            <Reveal delay={100}>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">Everything You Need</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 text-white">Tools for Growth</h2>
            </Reveal>
            <Reveal delay={200}>
             <p className="text-secondary max-w-2xl mx-auto text-lg">
-                Explore Appit's powerful features designed to help you connect, share, and engage with your community effortlessly.
+                We're building the essential tools you need to share your work and get better.
             </p>
            </Reveal>
         </div>
@@ -31,8 +31,8 @@ export const Features: React.FC = () => {
                         <div className="w-12 h-12 bg-white text-black rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-white/10">
                             <UserCheck size={24} />
                         </div>
-                        <h3 className="text-3xl font-bold text-white mb-3">Customizable Profiles</h3>
-                        <p className="text-secondary max-w-md text-lg">Personalize your profile with themes, layouts, and advanced settings to truly stand out from the crowd.</p>
+                        <h3 className="text-3xl font-bold text-white mb-3">Portfolio Profiles</h3>
+                        <p className="text-secondary max-w-md text-lg">Showcase your best work with a profile designed for creators, not just influencers.</p>
                     </div>
                     {/* Visual representation */}
                     <div className="w-full bg-black/50 backdrop-blur-md border border-white/5 rounded-2xl p-6 flex gap-6 items-center hover:bg-black/80 transition-colors cursor-pointer">
@@ -44,11 +44,11 @@ export const Features: React.FC = () => {
                              <div className="h-2.5 w-24 bg-zinc-900 rounded-full"></div>
                              <div className="flex gap-6 mt-2">
                                 <div className="text-center group/stat">
-                                    <div className="text-white font-bold text-lg group-hover/stat:text-indigo-400 transition-colors">98</div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-wide">Posts</div>
+                                    <div className="text-white font-bold text-lg group-hover/stat:text-indigo-400 transition-colors">12</div>
+                                    <div className="text-xs text-gray-500 uppercase tracking-wide">Projects</div>
                                 </div>
                                 <div className="text-center group/stat">
-                                    <div className="text-white font-bold text-lg group-hover/stat:text-indigo-400 transition-colors">4.2k</div>
+                                    <div className="text-white font-bold text-lg group-hover/stat:text-indigo-400 transition-colors">420</div>
                                     <div className="text-xs text-gray-500 uppercase tracking-wide">Followers</div>
                                 </div>
                              </div>
@@ -66,8 +66,8 @@ export const Features: React.FC = () => {
                         <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center mb-4 text-white group-hover:scale-110 transition-transform">
                             <Users size={20} />
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-2">Community Groups</h3>
-                        <p className="text-sm text-secondary">Join or create groups around shared interests.</p>
+                        <h3 className="text-xl font-bold text-white mb-2">Feedback Circles</h3>
+                        <p className="text-sm text-secondary">Small, focused groups for honest critique and support.</p>
                     </div>
                     <div className="flex -space-x-4 mt-8 pl-2">
                         {[1,2,3,4].map(i => (
@@ -76,7 +76,7 @@ export const Features: React.FC = () => {
                             </div>
                         ))}
                         <div className="w-10 h-10 rounded-full border-2 border-surfaceHighlight bg-indigo-600 flex items-center justify-center text-xs font-bold text-white relative z-10">
-                            +5k
+                            +12
                         </div>
                     </div>
                 </div>
@@ -89,8 +89,8 @@ export const Features: React.FC = () => {
                         <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center mb-4 text-white">
                             <ShieldCheck size={20} />
                         </div>
-                        <h3 className="text-xl font-bold text-white mb-2">Verified Users</h3>
-                        <p className="text-sm text-secondary mb-4">Connect confidently with verified, authentic users.</p>
+                        <h3 className="text-xl font-bold text-white mb-2">Real Identities</h3>
+                        <p className="text-sm text-secondary mb-4">Know who you're talking to. No bots, just real people.</p>
                     </div>
                     <div className="flex items-center gap-3 bg-black/40 p-3 rounded-2xl w-fit border border-white/5">
                         <img src="https://picsum.photos/30/30?random=50" className="w-8 h-8 rounded-full" />
@@ -111,21 +111,21 @@ export const Features: React.FC = () => {
                     <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center mb-4 text-white">
                         <Bell size={20} />
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2">Smart Notifications</h3>
-                    <p className="text-sm text-secondary mb-8">Get real-time alerts for the updates that matter to you.</p>
+                    <h3 className="text-xl font-bold text-white mb-2">Growth Alerts</h3>
+                    <p className="text-sm text-secondary mb-8">Get notified when it matters: collabs, feedback, and milestones.</p>
                     <div className="space-y-3 relative z-10">
                         <div className="bg-black/60 backdrop-blur-md p-4 rounded-xl border-l-4 border-indigo-500 flex items-center gap-4 transform translate-x-2 group-hover:translate-x-0 transition-transform duration-300">
                             <div className="w-2 h-2 rounded-full bg-indigo-500 shadow-[0_0_8px_rgba(99,102,241,1)]"></div>
                             <div>
-                                <div className="text-sm font-semibold text-white">New Comment</div>
-                                <div className="text-xs text-gray-400">Sarah commented on your post</div>
+                                <div className="text-sm font-semibold text-white">New Feedback</div>
+                                <div className="text-xs text-gray-400">Sarah reviewed your project</div>
                             </div>
                         </div>
                         <div className="bg-black/40 p-4 rounded-xl border-l-4 border-transparent opacity-60 flex items-center gap-4 transform translate-x-6 group-hover:translate-x-0 transition-transform duration-500 delay-75">
                             <div className="w-2 h-2 rounded-full bg-gray-600"></div>
                             <div>
-                                <div className="text-sm font-semibold text-gray-300">New Like</div>
-                                <div className="text-xs text-gray-500">John liked your photo</div>
+                                <div className="text-sm font-semibold text-gray-300">New Collab Request</div>
+                                <div className="text-xs text-gray-500">John wants to connect</div>
                             </div>
                         </div>
                     </div>
@@ -138,8 +138,8 @@ export const Features: React.FC = () => {
                      <div className="w-12 h-12 bg-white text-black rounded-2xl flex items-center justify-center mb-6">
                         <BarChart2 size={24} />
                      </div>
-                     <h3 className="text-2xl font-bold text-white mb-3">Account Insights</h3>
-                     <p className="text-secondary text-lg leading-relaxed">Track your engagement and performance with detailed analytics dashboards built right into the app. Visualize your growth.</p>
+                     <h3 className="text-2xl font-bold text-white mb-3">Growth Analytics</h3>
+                     <p className="text-secondary text-lg leading-relaxed">Understand your audience with data that helps you improve. Track engagement and reach.</p>
                  </Reveal>
                  <Reveal delay={200} className="flex-1 w-full bg-black/50 p-6 rounded-2xl border border-white/5 backdrop-blur-sm relative">
                      <div className="flex items-end gap-3 h-32 pb-2 border-b border-zinc-800">
@@ -166,8 +166,8 @@ export const Features: React.FC = () => {
                     <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center mb-4 text-white">
                         <MessageCircle size={20} />
                     </div>
-                    <h3 className="text-lg font-bold text-white mb-2">Easy Messaging</h3>
-                    <p className="text-xs text-secondary">Chat seamlessly with friends and groups.</p>
+                    <h3 className="text-lg font-bold text-white mb-2">Direct Collaboration</h3>
+                    <p className="text-xs text-secondary">Built-in tools to manage projects and conversations.</p>
                 </div>
             </Reveal>
 
@@ -177,8 +177,8 @@ export const Features: React.FC = () => {
                     <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center mb-4 text-white">
                         <Calendar size={20} />
                     </div>
-                    <h3 className="text-lg font-bold text-white mb-2">Post Scheduling</h3>
-                    <p className="text-xs text-secondary">Plan content to share at the perfect time.</p>
+                    <h3 className="text-lg font-bold text-white mb-2">Content Planning</h3>
+                    <p className="text-xs text-secondary">Draft and schedule your posts to maintain consistency.</p>
                 </div>
             </Reveal>
         </div>

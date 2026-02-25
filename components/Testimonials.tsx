@@ -6,21 +6,21 @@ export const Testimonials: React.FC = () => {
   const testimonials = [
     {
       name: "Emily Johnson",
-      role: "Founder at Agenc",
+      role: "Freelance Designer",
       image: "https://picsum.photos/100/100?random=1",
-      text: "I love how Appit helps me stay in touch with friends and meet new people. The app is user-friendly and effective. The interface is just stunning."
+      text: "I've been looking for a place to get real feedback on my designs, not just likes. Authentick's feedback circles are exactly what I needed."
     },
     {
       name: "Michael Brown",
-      role: "Founder at Nexwa",
+      role: "Content Creator",
       image: "https://picsum.photos/100/100?random=2",
-      text: "With Appit, I've expanded my network and found genuine connections. The seamless interface makes socializing so much easier than any other platform."
+      text: "The growth analytics are actually useful. I can see exactly which posts are resonating and why. It's helping me refine my strategy."
     },
     {
       name: "David Wilson",
-      role: "Founder at Boom",
+      role: "Indie Developer",
       image: "https://picsum.photos/100/100?random=3",
-      text: "Appit's features are fantastic for both meeting new people and staying connected with existing friends. It's a must-have app for creators."
+      text: "Finally, a platform that feels like a community. I've met two collaborators for my new project in just the first week of using Authentick."
     }
   ];
 
@@ -38,10 +38,10 @@ export const Testimonials: React.FC = () => {
                 </div>
             </Reveal>
             <Reveal delay={100}>
-                <h2 className="text-4xl md:text-5xl font-bold mb-4">Loved by Thousands</h2>
+                <h2 className="text-4xl md:text-5xl font-bold mb-4">What Early Users Say</h2>
             </Reveal>
             <Reveal delay={200}>
-                <p className="text-secondary">See how Appit has transformed users social experiences through their own words.</p>
+                <p className="text-secondary">Feedback from our beta testers and early adopters.</p>
             </Reveal>
         </div>
 

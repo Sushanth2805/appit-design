@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
                 </div>
                 ))}
             </div>
-            <span className="text-sm text-gray-300 font-medium">Join 3 million+ users</span>
+            <span className="text-sm text-gray-300 font-medium">Join our Early Access Program</span>
             </div>
         </Reveal>
 
@@ -34,14 +34,13 @@ export const Hero: React.FC = () => {
         <Reveal delay={100}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 leading-[1.1]">
             Connect, Share, <br className="hidden md:block"/>
-            and <span className="shimmer-text">Grow Together</span>
+            and <span className="shimmer-text">Grow Authentically</span>
             </h1>
         </Reveal>
 
         <Reveal delay={200}>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-secondary mb-12 leading-relaxed">
-            Join Appit to build authentic connections and share your passions effortlessly. 
-            Experience the next generation of social networking.
+            Authentick is a new social platform designed for creators who want real feedback and collaboration. We're currently in early access.
             </p>
         </Reveal>
 
@@ -49,22 +48,14 @@ export const Hero: React.FC = () => {
         <Reveal delay={300}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-24">
             <button className="group relative flex items-center gap-3 bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
-                <span>Download App</span>
+                <span>Join Early Access</span>
                 <div className="bg-black/10 rounded-full p-1 group-hover:translate-x-1 transition-transform">
                     <ArrowRight size={16} />
                 </div>
             </button>
             
             <div className="flex items-center gap-4 text-sm font-medium text-gray-400">
-                <span className="opacity-70">Available on</span>
-                <div className="flex gap-3">
-                    <a href="#" className="w-10 h-10 rounded-full bg-surfaceHighlight flex items-center justify-center border border-white/10 hover:bg-white hover:text-black hover:border-transparent transition-all duration-300">
-                        <Apple size={20} className="fill-current mb-0.5" />
-                    </a>
-                    <a href="#" className="w-10 h-10 rounded-full bg-surfaceHighlight flex items-center justify-center border border-white/10 hover:bg-white hover:text-black hover:border-transparent transition-all duration-300">
-                        <Play size={18} className="fill-current ml-0.5" />
-                    </a>
-                </div>
+                <a href="#features" className="hover:text-white transition-colors">Learn more about our mission</a>
             </div>
             </div>
         </Reveal>
@@ -77,7 +68,7 @@ export const Hero: React.FC = () => {
                     <div className="flex flex-col h-full bg-zinc-950 p-4 pt-12 relative">
                          {/* Header */}
                         <div className="flex justify-between items-center mb-6 px-1">
-                            <span className="text-white font-bold text-xl tracking-tight">Appit</span>
+                            <span className="text-white font-bold text-xl tracking-tight">Authentick</span>
                             <div className="w-8 h-8 rounded-full bg-zinc-900 flex items-center justify-center">
                                  <Bell size={18} className="text-white" />
                             </div>
@@ -104,11 +95,11 @@ export const Hero: React.FC = () => {
                                         <div className="flex gap-4">
                                             <div className="flex flex-col items-center gap-1">
                                                 <Heart size={20} className="text-white" />
-                                                <span className="text-[10px] font-bold">2.4k</span>
+                                                <span className="text-[10px] font-bold">24</span>
                                             </div>
                                             <div className="flex flex-col items-center gap-1">
                                                 <MessageCircle size={20} className="text-white" />
-                                                <span className="text-[10px] font-bold">84</span>
+                                                <span className="text-[10px] font-bold">8</span>
                                             </div>
                                         </div>
                                         <Share2 size={20} className="text-white"/>
@@ -154,7 +145,7 @@ export const Hero: React.FC = () => {
                     <div className="flex flex-col h-full bg-zinc-900/80 backdrop-blur-sm p-4 pt-10">
                         <div className="bg-zinc-800 rounded-full px-4 py-3 flex items-center gap-2 mb-8">
                             <Search size={16} className="text-gray-500" />
-                            <span className="text-gray-500 text-xs">Search users...</span>
+                            <span className="text-gray-500 text-xs">Search creators...</span>
                         </div>
                         <div className="space-y-5">
                             {[1,2,3,4].map(i => (
@@ -180,20 +171,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       
-      {/* Logos Strip */}
-      <Reveal delay={600}>
-        <div className="mt-20 border-t border-white/5 pt-10 pb-10 max-w-7xl mx-auto overflow-hidden">
-            <p className="text-center text-sm text-gray-500 mb-8 font-medium tracking-wide">TRUSTED BY INNOVATIVE TEAMS</p>
-            <div className="flex flex-wrap justify-center gap-x-12 gap-y-8 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
-                {['Lumina', 'Vortex', 'Velocity', 'Synergy', 'Enigma', 'Spectrum'].map((name) => (
-                    <div key={name} className="flex items-center gap-2 text-xl font-bold text-white cursor-default select-none hover:text-white transition-colors">
-                        <div className="w-6 h-6 rounded bg-current opacity-80"></div>
-                        {name}
-                    </div>
-                ))}
-            </div>
-        </div>
-      </Reveal>
+      {/* Logos Strip - Removed for honesty/early access vibe */}
     </section>
   );
 };

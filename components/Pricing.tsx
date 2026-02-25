@@ -16,10 +16,10 @@ export const Pricing: React.FC = () => {
             </div>
            </Reveal>
            <Reveal delay={100}>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Flexible Pricing Plans</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Simple, Transparent Pricing</h2>
            </Reveal>
            <Reveal delay={200}>
-            <p className="text-secondary mb-10 text-lg">Choose a plan that fits your needs. No hidden fees.</p>
+            <p className="text-secondary mb-10 text-lg">We are in early access. These prices are locked in for early adopters.</p>
            </Reveal>
            
            {/* Toggle */}
@@ -36,19 +36,19 @@ export const Pricing: React.FC = () => {
             <Reveal delay={400} className="h-full">
                 <div className="h-full bg-surface border border-white/10 rounded-[2rem] p-10 flex flex-col hover:border-white/20 transition-all duration-300">
                     <div className="mb-8">
-                        <h3 className="text-xl font-bold text-white">Free Plan</h3>
+                        <h3 className="text-xl font-bold text-white">Starter</h3>
                         <div className="mt-4 flex items-baseline">
                             <span className="text-5xl font-bold text-white">$0</span>
                             <span className="text-secondary ml-2 text-sm font-medium">/per month</span>
                         </div>
-                        <p className="text-sm text-secondary mt-4 leading-relaxed">Great for getting started and experiencing the basics of Appit.</p>
+                        <p className="text-sm text-secondary mt-4 leading-relaxed">Join the community and start sharing your work.</p>
                     </div>
                     <button className="w-full bg-surfaceHighlight border border-white/10 text-white font-bold py-4 rounded-xl mb-10 hover:bg-white hover:text-black hover:border-transparent transition-all duration-300">
-                        Get Started
+                        Join for Free
                     </button>
                     <div className="space-y-4 flex-1">
                         <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">What's Included</p>
-                        {['Create and customize profile', 'Connect with other users', 'Send and receive messages', 'Access to basic features'].map((item, i) => (
+                        {['Create your portfolio', 'Join 3 Feedback Circles', 'Basic analytics', 'Direct messaging'].map((item, i) => (
                             <div key={i} className="flex items-start gap-3 text-sm text-gray-300">
                                 <div className="bg-zinc-800 p-1 rounded-full mt-0.5">
                                     <Check size={10} className="text-white" />
@@ -67,22 +67,22 @@ export const Pricing: React.FC = () => {
                 
                 <div className="h-full bg-zinc-900 border border-transparent rounded-[2rem] p-10 flex flex-col relative overflow-hidden z-10 shadow-2xl">
                     <div className="absolute top-0 right-0 bg-white text-black text-[10px] font-bold px-4 py-2 rounded-bl-2xl shadow-lg">
-                        MOST POPULAR
+                        LOCKED IN PRICE
                     </div>
                     <div className="mb-8">
-                        <h3 className="text-xl font-bold text-white">Premium Plan</h3>
+                        <h3 className="text-xl font-bold text-white">Pro</h3>
                         <div className="mt-4 flex items-baseline">
                             <span className="text-5xl font-bold text-white">${isAnnual ? '8' : '10'}</span>
                             <span className="text-secondary ml-2 text-sm font-medium">/per month</span>
                         </div>
-                        <p className="text-sm text-secondary mt-4 leading-relaxed">Unlock the full potential with advanced tools and features.</p>
+                        <p className="text-sm text-secondary mt-4 leading-relaxed">For serious creators who want more visibility and tools.</p>
                     </div>
                     <button className="w-full bg-white text-black font-bold py-4 rounded-xl mb-10 hover:bg-gray-200 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-                        Get Started
+                        Get Pro Access
                     </button>
                     <div className="space-y-4 flex-1">
                         <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">What's Included</p>
-                        {['Everything in Free', 'View and share content', 'Receive notifications and updates', 'Priority support', 'Ad-free experience', 'Verification badge'].map((item, i) => (
+                        {['Everything in Starter', 'Unlimited Feedback Circles', 'Advanced Growth Analytics', 'Priority in discovery feed', 'Pro badge', 'Early access to new features'].map((item, i) => (
                             <div key={i} className="flex items-start gap-3 text-sm text-white">
                                 <div className="bg-indigo-600 p-1 rounded-full mt-0.5">
                                     <Check size={10} className="text-white" />

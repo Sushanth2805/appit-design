@@ -31,11 +31,11 @@ export const Benefits: React.FC = () => {
             </div>
           </Reveal>
           <Reveal delay={100}>
-            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Discover Appit's Benefits</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Why Authentick?</h2>
           </Reveal>
           <Reveal delay={200}>
             <p className="text-secondary max-w-2xl mx-auto text-lg">
-                Unlock a world of meaningful connections, tailored experiences, and seamless social interaction designed for the modern era.
+                We're building a platform where your content gets the attention it deserves, with tools designed for meaningful growth.
             </p>
           </Reveal>
         </div>
@@ -45,14 +45,14 @@ export const Benefits: React.FC = () => {
           <div className="flex flex-col gap-8 justify-center">
             <BenefitCard 
               icon={Users} 
-              title="Authentic Connections" 
-              description="Build genuine relationships with like-minded individuals who share your passions and values."
+              title="Real Feedback" 
+              description="Get constructive feedback from a community of creators who care about quality, not just likes."
               delay={300}
             />
              <BenefitCard 
               icon={Globe} 
-              title="Global Reach" 
-              description="Connect with people across 50+ countries effortlessly. Break down barriers."
+              title="Collaborative Growth" 
+              description="Find partners for your next project. Our matching system connects you with complementary skills."
               delay={400}
             />
           </div>
@@ -96,14 +96,14 @@ export const Benefits: React.FC = () => {
           <div className="flex flex-col gap-8 justify-center">
             <BenefitCard 
               icon={Sparkles} 
-              title="Personalized Experience" 
-              description="Tailored content and recommendations delivered straight to your feed based on your interests."
+              title="Creator Focused" 
+              description="Tools built specifically for creators. Portfolio showcasing, analytics, and direct support."
               delay={600}
             />
             <BenefitCard 
               icon={Heart} 
-              title="Community Support" 
-              description="Join thriving communities around your interests. Find your tribe and grow together."
+              title="Early Adopter Community" 
+              description="Join early and help shape the platform. Your voice matters in our roadmap."
               delay={700}
             />
           </div>

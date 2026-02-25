@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
             <div className={`w-8 h-8 rounded-lg flex items-center justify-center mr-2 transition-colors ${isScrolled ? 'bg-white text-black' : 'bg-surfaceHighlight border border-white/10 text-white'}`}>
                <Zap size={18} className="fill-current" />
             </div>
-            <span className="font-bold text-xl tracking-tight hidden sm:block">Appit</span>
+            <span className="font-bold text-xl tracking-tight hidden sm:block">Authentick</span>
           </div>
 
           {/* Desktop Nav */}
@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
               href="#"
               className="bg-white text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-gray-200 transition-colors flex items-center gap-2 group"
             >
-              Get Started
+              Join Early Access
               <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
             </a>
           </div>
@@ -97,7 +97,7 @@ export const Navbar: React.FC = () => {
               href="#"
               className="w-full text-center bg-white text-black py-3 rounded-xl font-semibold hover:bg-gray-200"
             >
-              Get Template
+              Join Early Access
             </a>
           </div>
         </div>

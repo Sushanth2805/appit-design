@@ -1,5 +1,5 @@
 import React from 'react';
-import { Apple, Play, Zap, X, Globe } from './ui/Icons';
+import { Apple, Play, Zap, X, Globe, ArrowRight } from './ui/Icons';
 import { PhoneFrame } from './ui/PhoneFrame';
 
 export const Footer: React.FC = () => {
@@ -13,26 +13,16 @@ export const Footer: React.FC = () => {
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b from-indigo-900/10 to-transparent pointer-events-none"></div>
 
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative z-10">
-                Download Appit Social<br />and Connect Today
+                Join Authentick Today
             </h2>
             <p className="text-secondary max-w-xl mx-auto mb-10 relative z-10">
-                Download Appit now to start connecting with like-minded people and enjoy a seamless social experience!
+                Be part of the next generation of social media. Built for growth, not just scrolling.
             </p>
 
             <div className="flex justify-center gap-4 mb-16 relative z-10">
-                <button className="bg-white text-black px-6 py-3 rounded-xl flex items-center gap-2 font-bold hover:bg-gray-200 transition-colors">
-                    <Play size={20} fill="black" />
-                    <div className="text-left">
-                        <div className="text-[10px] uppercase leading-none">Get it on</div>
-                        <div className="text-sm leading-none">Google Play</div>
-                    </div>
-                </button>
-                 <button className="bg-white text-black px-6 py-3 rounded-xl flex items-center gap-2 font-bold hover:bg-gray-200 transition-colors">
-                    <Apple size={24} fill="black" />
-                    <div className="text-left">
-                        <div className="text-[10px] uppercase leading-none">Download on the</div>
-                        <div className="text-sm leading-none">App Store</div>
-                    </div>
+                <button className="bg-white text-black px-8 py-4 rounded-full flex items-center gap-3 font-bold hover:bg-gray-200 transition-colors">
+                    <span>Join Early Access</span>
+                    <ArrowRight size={18} />
                 </button>
             </div>
 
@@ -57,13 +47,13 @@ export const Footer: React.FC = () => {
                 <div className="w-8 h-8 rounded-lg bg-white text-black flex items-center justify-center">
                     <Zap size={20} fill="black" />
                 </div>
-                <span className="font-bold text-xl tracking-tight">Appit</span>
+                <span className="font-bold text-xl tracking-tight">Authentick</span>
             </div>
             
-            <p className="text-gray-500 text-sm mb-6">Empower Your Social Connections with Appit Social</p>
+            <p className="text-gray-500 text-sm mb-6">Empower Your Social Connections with Authentick</p>
             
             <div className="bg-zinc-900 px-4 py-2 rounded-full border border-white/10 text-sm text-gray-300 mb-8">
-                hello@appit.com
+                hello@authentick.com
             </div>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8 text-sm text-gray-400">
@@ -76,7 +66,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <div className="flex justify-between w-full text-xs text-gray-600 border-t border-white/5 pt-8">
-                <span>Template by Prahal</span>
+                <span>© 2024 Authentick. All rights reserved.</span>
                 <div className="flex gap-4">
                     <a href="#" className="hover:text-white">Privacy Policy</a>
                 </div>
